@@ -1,5 +1,7 @@
-package com.test.alianza.mapper.utils;
+package com.test.alianza.mapper;
 
+import com.test.alianza.mapper.utils.BaseMapper;
+import com.test.alianza.mapper.utils.MapperUtils;
 import com.test.alianza.model.dto.ClientDto;
 import com.test.alianza.model.entity.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
