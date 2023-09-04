@@ -20,12 +20,10 @@ public class Cliente {
     @Column(name = "Business_Id")
     private String businessId;
 
-    @Column(name = "E-mail")
     private String email;
 
-    @Column(name = "Phone")
     private String phone;
 
-    @Column(name = "Data Added")
+    @Column(name = "data_added")
     private Date dataAdded;
 }
